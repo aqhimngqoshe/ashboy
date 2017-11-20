@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capetonian Explorer|Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Kaushan+Script|Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   body {
+     width: 100%;
+   }
+   header, footer {
+     clear: both;
+     text-align: center;
+   }
+   /*Headings Styling*/
+   h2 {
+   text-align: center;
+   font-family: 'Kaushan Script', cursive;
+   font-size: 65px;
+   color: #ff6600;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    font-size: 28px;
+  }
+  /*Navigation Bar Styling*/
+  nav a {
+    text-align: center;
+    font-size: 30px;
+	  font-style: normal;
+	  font-weight: normal;
+	  text-transform: normal;
+	  letter-spacing: normal;
+	  line-height: 1.3em;
+	  color: #596365;
+    margin: 40px;
+
+  }
+  nav {
+    display: inline;
+    font-style: normal;
+    font-family: 'Nosifer', cursive;
+    font-weight: normal;
+    text-transform: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 60px;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+  ul {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    margin-top: 200px;
+  }
+
+  i {
+    color: black;
+    opacity: 0.8;
+  }
+  /*Navigation Bar Ending*/
+
+  /*Grid Layout of the entire page*/
+   #grid {
+     display: grid;
+     grid-template-columns: (4, 1fr);
+     grid-template-rows: repeat(100px, auto);
+     grid-gap: 1em;
+   }
+   #grid > div {
+     font-size: 1.5vw;
+     padding: .5em;
+     background: #E0E0E0;
+   }
+   /*image styling to enlarge when mouse on-click/hover with each picture*/
+    img:hover{
+     transition: 5s;
+     width: 500px;
+     height: 250px;
+   }
+   .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5em;
+   }
+     /*Image individual styling within each group*/
+   /*First image of each group should take the first column space*/
+   .a {
+     grid-column: 1;
+   }
+   /*Second image of each group should take the second column space*/
+   .b {
+     grid-column: 2;
+   }
+   /*Third image of each group should take the third column space*/
+   .c {
+     grid-column: 3;
+   }
+   /*Fourth image of each group should take the fourth column space*/
+   .d {
+     grid-column: 4;
+   }
+
+  </style>
+</head>
+<body>
+  <!--Grid Layout of the entire Body Section-->
+  <div id="grid">
+    <!--Heading Section-->
+    <header>
+      <!--NavBar Section-->
+      <nav>
+        <a href="Home Page.html">HOME</a>
+        <a href="Contact.html">CONTACT</a>
+      </nav>
+       <br>
+       <h2><ins>Gallery</ins></h2>
+    </header>
+
+    <!--Hiking Section-->
+    <h3>HIKING</h3>
+    <div class="container">
+      <!--Hiking Pictures display in grid layout 4 columns and 1 row-->
+      <div class="a">
+        <img src="images/hiking trail(1).jpg" alt="hike" width="300px" height="150px">
+      </div>
+
+      <div class="b">
+        <img src="images/hiking trail(2).jpg" alt="hike" width="300px" height="150px">
+      </div>
+
+      <div class="c">
+        <img src="images/hiking trail(3).jpg" alt="hike" width="300px" height="150px">
+      </div>
+
+      <div class="d">
+        <img src="images/hiking trail(4).jpg" alt="hike" width="300px" height="150px">
+      </div>
+
+    </div>
+
+    <!--Camping Section-->
+    <h3>CAMPING</h3>
+    <div class="container">
+      <!--Camping Pictures displayed in a grid layout: 4 columns and 1 row(Row 2)-->
+      <div class="a">
+        <img src="images/camping(1).jpg" alt="camp" width="300px" height="150px">
+      </div>
+
+      <div class="b">
+        <img src="images/camping(2).jpg" alt="camp" width="300px" height="150px">
+      </div>
+
+      <div class="c">
+        <img src="images/camping(3).jpg" alt="camp" width="300px" height="150px">
+      </div>
+
+      <div class="d">
+        <img src="images/camping(4).jpg" alt="camp" width="300px" height="150px">
+      </div>
+
+    </div>
+
+    <!--Fishing Section-->
+    <h3>FISHING</h3>
+    <div class="container">
+      <!--Fishing pictures displayed in 4 columns and 1 row(Row 3)-->
+      <div class="a">
+        <img src="images/fishing(1).jpg" alt="fish" width="300px" height="150px">
+      </div>
+
+      <div class="b">
+        <img src="images/fishing(2).jpg" alt="fish" width="300px" height="150px">
+      </div>
+
+      <div class="c">
+        <img src="images/fishing(3).jpg" alt="fish" width="300px" height="150px">
+      </div>
+
+      <div class="d">
+        <img src="images/fishing(4).jpg" alt="fish" width="300px" height="150px">
+      </div>
+
+    </div>
+
+    <!--Climbing Section-->
+    <h3>CLIMBING</h3>
+    <div class="container">
+      <!--Climbing Pictures displayed in 4 columns and 1 row(Row 4)-->
+      <div class="a">
+        <img src="images/climbing(1).jpg" alt="climb" width="300px" height="150px">
+      </div>
+
+      <div class="b">
+        <img src="images/climbing(2).jpg" alt="climb" width="300px" height="150px">
+      </div>
+
+      <div class="c">
+        <img src="images/climbing(3).jpg" alt="climb" width="300px" height="150px">
+      </div>
+
+      <div class="d">
+        <img src="images/climbing(4).jpg" alt="climb" width="300px" height="150px">
+      </div>
+
+    </div>
+  <!--Closing Tag of the entire Grid Layout of the Body-->
+</div>
+
+<footer>
+  <p>Copyright &copy: Capetonian Explorers</p>
+  <!--Dummie links icons-->
+    <!--Facebook icon-->
+    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+    <!--Twitter icon-->
+    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+    <!--Instargram icon-->
+    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capetonian Explorer|Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Kaushan+Script|Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  /*Body Styling with Grid Layout Using Area*/
+  body {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "article article aside"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 0.5em;
+  }
+  p {
+    color: black;
+    font-size: 18px;
+  }
+  /*Heading Font Styles, Font Family, Font Sizes*/
+  h2 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #ff6600;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    font-size: 28px;
+  }
+  h4 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+  }
+
+  /*Navigation Bar*/
+  header {
+    text-align: center;
+    padding: 25px;
+
+  }
+
+  nav a {
+    text-align: center;
+    font-size: 29px;
+	  font-style: normal;
+	  font-weight: normal;
+	  text-transform: normal;
+	  letter-spacing: normal;
+	  line-height: 1.3em;
+	  color: #596365;
+    margin: 20px;
+
+  }
+  nav {
+    display: inline;
+    font-style: normal;
+    font-family: 'Nosifer', cursive;
+    font-weight: normal;
+    text-transform: normal;
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 60px;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+  ul {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    margin-top: 200px;
+  }
+  /*Navigation Bar Ending*/
+
+  /*Footer Section Style*/
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  img {
+    float: left;
+  }
+  /*Article & Aside Section Style*/
+  article, aside {
+    padding: 5px;
+  }
+  /*Aside Bar Styling*/
+  li {
+     display: block;
+     list-style-type: none;
+     font-family: 'Ceviche One', cursive;
+     font-weight: normal;
+     text-transform: normal;
+     font-weight: 300;
+     font-size: 30px;
+     text-align: center;
+     padding: 40px;
+
+  }
+  /*Header Section Area*/
+  #myHeader {
+    grid-area: header;
+    background-color: white;
+    height: 100px;
+  }
+  /*Article Area*/
+  #myArticle {
+    grid-area: article;
+    background-color: #cccccc;
+  }
+  /*Aside Area*/
+  #myAside {
+    grid-area: aside;
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  /*Footer Area*/
+  #myFooter {
+    grid-area: footer;
+    background-color: white;
+  }
+
+
+  /*End of Grid Layout Template within the Article Section*/
+  </style>
+</head>
+<body>
+  <header id="myHeader">
+
+      <nav>
+        <a href="#article">HOME</a>
+        <a href="Gallery.html">GALLERY</a>
+        <a href="Contact.html">CONTACT</a>
+      </nav>
+  <br>
+    <h2><ins>Capetonian Goofy Travelers</ins></h2>
+  </header>
+
+  <!--Article Story Section with the Short Briefing of each topic-->
+  <article id="myArticle">
+
+     <!--Hiking Section-->
+     <div>
+      <h3>HIKING</h3>
+      <p><strong>Tranquility Cracks</strong>&nbsp;- &nbsp;Tranquility Cracks refers directly to deep fissures in the rocks above Camps Bay through which one passes, about halfway along the Twelve Apostles. Beyond the cracks is a labyrinth of rocky corridors.</p>
+      <p><strong>Alphen Trail</strong>&nbsp;- &nbsp;The trail winds along the Diep River to the Constantiaberg Mountain and in places allows one to walk on either side of the river, with a number of bridge crossings. It’s a beautiful walk filled with lush grass, trees, beautiful skies and the Le Sueur Meadow on the far end of the walk towards Hohenort.</p>
+      <p><strong>Witels Trail</strong>&nbsp;- &nbsp;Witels is a wonderful Kloofing trip between Worcester and Ceres. The best time of year to do this hike is between November and February.</p>
+      <p><strong>Right Face, Arrow Face Traverse Trail</strong>&nbsp;- &nbsp;This route starts at the same place as the Platteklip Gorge trail, but turns right onto the contour path, which you follow until you reach what you think might be Union Cave. Then you go up what you think is Yellowstone Gully, before realising it’s actually Union Ravine.</p>
+     </div>
+
+     <!--Camping Section-->
+     <div>
+      <h3>CAMPING</h3>
+         <p><strong>Tweede Tol Campsite</strong>&nbsp;- &nbsp;Tweede Tol is a Cape Nature camping and picnic site 16 kilometres from Wellington up the Bainskloof Pass, in the Limietberg Nature Reserve - a huge 102 000 hectare mountain, wildlife and fynbos reserve in the mountains. Tweede Tol (second toll) is one of two tolls on the pass (the first is at the top of the pass just after the Bainskloof Trading post and is one of very few buildings to survive on The Neck of the pass). </p>
+     </div>
+
+     <!--Fishing Section-->
+     <div id="article">
+       <!--Home NavBar will Bring You to This Section of The Home Page-->
+      <h3>FISHING</h3>
+         <p><strong>Tulbagh</strong>&nbsp;- &nbsp;has three dams on the property but only two have fishes, one of which is situated next to the chalets and as a result, it has the most fishing pressure.</p>
+         <p><strong>Gariep Dam (Hendrik Verwoerd)</strong>&nbsp;- &nbsp;The Gariep Dam (formerly known as the Hendrik Verwoerd Dam) forms the largest storage reservoir on South Africa with a total storage of approximately 5 500 million m3 and a surface area of more than 370 km2 when full. The dam is the central structure of the original Orange River Project which involves the supply of water to parts of the Vaal, Fish and Sundays catchments as well as to irrigation along the Orange river itself.</p>
+     </div>
+     <!--Rock-Climbing Section-->
+     <div>
+      <h3>ROCK-CLIMBING</h3>
+         <p><strong>Silvermine</strong>&nbsp;- &nbsp;Silvermine is probably the most popular climbing area on the Cape Peninsula with short walk-ins, good rock quality and many excellent routes. Silvermine has five different crags and over 80 routes with grades ranging from 13 to 28. The crags go into the shade in the early afternoon. The Lower Silvermine Crag has easy routes and is perfect for beginners, Blaze of Glory is a little harder, Silvermine Main Crag is a good all round crag and       Fawlty Towers for some harder stuff. The most recent addition is Silverminor Crag.</p>
+         <p><strong>Montagu</strong>&nbsp;- &nbsp;Montagu is recognised as one of the most outstanding climbing destinations in South Africa due to the quality and number of climbing routes available. Montagu’s rock walls offer a wide variety of climbing opportunities at every level from beginner to expert. The charming town of Montagu is situated in the Klein Karoo (semi desert region) on the east side of the Langeberg mountain range 2 hours / 200km drive east of Cape Town. Montagu is well known for it’s hot mineral springs as well as climbing and mountain biking.</p>
+         <p><strong>Rocklands</strong>&nbsp;- &nbsp;Rocklands is 250km/3 hours north of Cape Town. It is a very beautiful area in a semi-desert setting, very isolated and very safe. Rocklands is undoubtedly famous for it’s world class bouldering but this should not deter you from sampling the fine sport climbing.</p>
+     </div>
+
+
+  </article>
+
+  <!--Aside Section with External Links-->
+  <aside id="myAside">
+    <h2><ins>External Links</ins></h2>
+
+   <ul>
+      <li><a href="http://www.capetownmagazine.com/hikes-overview" target="_blank">Hiking</a></li><br>
+      <li><a href="https://www.sa-venues.com/caravan_parks_camping.htm" target="_blank">Camping</a></li><br>
+      <li><a href="http://campdinokeng.co.za/" target="_blank">Fishing</a></li><br>
+      <li><a href="http://www.rockclimbing.com/routes/Africa/South_Africa/Cape_Town/" target="_blank">Outside Rock-Climbing</a></li><br>
+   </ul>
+      <img src="images/logo4.jpg" alt="hike" width"300px" height="150px"><img src="images/logo4.jpg" alt="hike" width"300px" height="150px"><img src="images/logo4.jpg" alt="hike" width"300px" height="150px">
+  </aside>
+
+  <!--Social Media Links Dummies-->
+  <footer id="myFooter">
+    <p>Copyright &copy: Capetonian Explorers</p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+  </footer>
+</body>
+</html>
